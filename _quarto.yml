@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "IDR4000 Mappeeksamen"
+  author: "Kandidat NR"
+  date: "17/11/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: resources/references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
