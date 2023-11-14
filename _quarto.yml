@@ -29,7 +29,6 @@ output:
   pdf_document:
     citation_package: natbib
     citation_style: referansestil/apa.csl 
-    toc-title: "Innholdsfortegnelse" 
 editor_options: 
   chunk_output_type: console 
   
@@ -43,7 +42,8 @@ format:
   html:
     theme: cosmo
   pdf:
-    documentclass: scrreprt
+    documentclass: scrreprt 
+    toc-title: "Innholdsfortegnelse"
 
 
 
