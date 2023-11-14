@@ -1,5 +1,5 @@
 --- 
-bibliography: referanser-kapittel/referanser-vitenskapsfilosofi.bib
+bibliography: resources/referanser.bib
 ---
 
 # Vitenskapsfilosofi

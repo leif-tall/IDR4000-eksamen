@@ -6,7 +6,7 @@ book:
   author: "Kandidatnr."
   date: "17.11.2023"
   chapters:
-    - forord.qmd
+    - index.qmd
     - 01-reliabilitet.qmd
     - 02-vitenskapsfilosofi.qmd 
     - 03-proteinanalyse.qmd 
@@ -14,6 +14,12 @@ book:
     - 05-repeterte-forsøk.qmd
     - references.qmd 
     
+output:
+  pdf_document:
+    citation_package: natbib
+    citation_style: referansestil/apa.csl 
+editor_options: 
+  chunk_output_type: console 
 
 bibliography: resources/referanser.bib 
 
@@ -28,13 +34,6 @@ crossref:
   tbl-title: "**Tabell**" 
   tbl-prefix: "Tabell"
   
-output:
-  pdf_document:
-    citation_package: natbib
-    citation_style: referansestil/apa.csl 
-editor_options: 
-  chunk_output_type: console 
-  
   
 execute: 
   echo: false 
@@ -46,7 +45,8 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt 
-    toc-title: "Innholdsfortegnelse"
+    toc-title: "Innholdsfortegnelse" 
+    
 
 
 
