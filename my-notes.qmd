@@ -1,8 +1,0 @@
----
-title: "my-notes"
-format: html 
-editor: visual
-bibliography: resources/references.bib
----
-
-Hopkins writes about reliability [@hopkins2000].
