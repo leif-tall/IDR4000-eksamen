@@ -6,7 +6,7 @@ book:
   author: "Kandidatnr."
   date: "17.11.2023"
   chapters:
-    - forord.md
+    - forord.qmd
     - 01-reliabilitet.qmd
     - 02-vitenskapsfilosofi.qmd 
     - 03-proteinanalyse.qmd 
