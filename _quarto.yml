@@ -3,15 +3,41 @@ project:
 
 book:
   title: "IDR4000 Mappeeksamen"
-  author: "Kandidat NR"
-  date: "17/11/2023"
+  author: "Kandidatnr."
+  date: "17.11.2023"
   chapters:
     - index.qmd
     - 01-reliabilitet.qmd
     - 02-vitenskapsfilosofi.qmd
-    - references.qmd
+    - references.qmd 
+    
 
-bibliography: resources/references.bib
+bibliography: resources/referanser.bib 
+
+header-includes:
+  - \usepackage{fontspec}
+  - \setmainfont{Times New Roman} 
+  - \renewcommand{\normalsize}{\fontsize{12}{18}\selectfont}
+
+crossref: 
+  fig-title: "**Figur**" 
+  fig-prefix: "Figur"
+  tbl-title: "**Tabell**" 
+  tbl-prefix: "Tabell"
+  
+output:
+  pdf_document:
+    citation_package: natbib
+    citation_style: referansestil/apa.csl 
+    toc-title: "Innholdsfortegnelse" 
+editor_options: 
+  chunk_output_type: console 
+  
+  
+execute: 
+  echo: false 
+  warning: false 
+  message: false 
 
 format:
   html:
