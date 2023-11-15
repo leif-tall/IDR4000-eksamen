@@ -23,7 +23,7 @@ output:
     latex_engine: xelatex 
     includes:
       in_header: "lenke-git.tex" 
-
+    
 editor_options: 
   chunk_output_type: console 
 
