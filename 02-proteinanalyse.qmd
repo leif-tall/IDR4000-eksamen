@@ -113,14 +113,14 @@ Mengden fosforylert p-70 var større i venstre bein enn i høyre bein, se @fig-f
 cat("\\newpage")
 ```
 
-![*Illustrasjon av mengden fosforylert p-70 i venstre versus høyre bein. De to boksene til venstre viser mengde p-70 i høyre fot og de to boksene til høyre viser mengde p-70 i venstre fot (N = 1).*](innsamlet-data/bilder/figur1_analysert_bilde_p70.png){#fig-figur1}
+![*Illustrasjon av mengden fosforylert p-70 i venstre versus høyre bein. De to boksene til venstre viser mengde p-70 i høyre fot og de to boksene til høyre viser mengde p-70 i venstre fot (N = 1).*](data/figur1_analysert_bilde_p70.png){#fig-figur1}
 
 ```{r, results='asis'}
 #| echo: false
 cat("\\newpage")
 ```
 
-![*Spredningsplott med trendkurve, som illustrerer den forklarte variansen mellom signal og konsentrasjon (N = 1). Notat: Data er presentert som bestemmelseskoeffisient (R*<sup>2</sup>) (skala: 0,0--1,0).](innsamlet-data/bilder/figur2_spredningsplot_trendkurve.png){#fig-figur2}
+![*Spredningsplott med trendkurve, som illustrerer den forklarte variansen mellom signal og konsentrasjon (N = 1). Notat: Data er presentert som bestemmelseskoeffisient (R*<sup>2</sup>) (skala: 0,0--1,0).](data/figur2_spredningsplot_trendkurve.png){#fig-figur2}
 
 ```{r}
 #| label: tbl-tabell1 
