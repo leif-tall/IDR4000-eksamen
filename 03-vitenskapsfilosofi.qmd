@@ -26,7 +26,6 @@ For å forklare tydeligere hva som menes kan vi bruke Newton sin lov om tyngdekr
 
 Hvis vi ser for oss en situasjon der du har to alternativer. En som er blitt prøvd falsifisert mye og en som ikke har prøvd så mye, men er ny. Ingen av teoriene har blitt falsifisert. Hvis man da tenker seg at man velger det ene alternativet, kan man ikke ha det andre alternativet [@vassend2023b]. Dersom jeg skulle tatt et slikt valg ville begrunnelsen vært rasjonell. Jeg ville valgt det alternativet som etter fornuft virker som det beste alternativet. Dette tenker jeg kunne vært basert på sannsynlighet. Dermed har jeg igjen kommet tilbake til problemet, vi har tatt en rasjonell beslutning. Samtidig er det etter Popper kommet andre tilnærminger som prøver å løse induksjonsproblemet, som bayesianisme og abduktivisme. Men likevel så lykkes man ikke helt med å komme utenom det. Konklusjonen blir at man ikke klarer å komme helt utenom induksjonsproblemet, og tilnærmingen til Popper kommer heller ikke helt utenom problemet.
 
-## Referanser
 
 
 

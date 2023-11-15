@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,7 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./05-repeterte-forsøk.html" rel="next">
-<link href="./03-proteinanalyse.html" rel="prev">
+<link href="./03-vitenskapsfilosofi.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,6 +84,8 @@ ul.task-list li input[type="checkbox"] {
 \setmainfont{Times New Roman}
 \renewcommand{\normalsize}{\fontsize{12}{18}\selectfont}
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 
 
@@ -116,14 +137,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-vitenskapsfilosofi.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Vitenskapsfilosofi</span></span></a>
+  <a href="./02-proteinanalyse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Ekstraksjon og analyse av protein</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-proteinanalyse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Ekstraksjon og analyse av protein</span></span></a>
+  <a href="./03-vitenskapsfilosofi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Vitenskapsfilosofi</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -150,7 +171,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#innledning" id="toc-innledning" class="nav-link active" data-scroll-target="#innledning"><span class="header-section-number">4.1</span> Innledning</a>
+  <ul class="collapse">
+  <li><a href="#problem-og-hypotese" id="toc-problem-og-hypotese" class="nav-link" data-scroll-target="#problem-og-hypotese"><span class="header-section-number">4.1.1</span> Problem og hypotese</a></li>
+  </ul></li>
+  <li><a href="#metode" id="toc-metode" class="nav-link" data-scroll-target="#metode"><span class="header-section-number">4.2</span> Metode</a>
+  <ul class="collapse">
+  <li><a href="#studiedesign" id="toc-studiedesign" class="nav-link" data-scroll-target="#studiedesign"><span class="header-section-number">4.2.1</span> Studiedesign</a></li>
+  <li><a href="#statistikk" id="toc-statistikk" class="nav-link" data-scroll-target="#statistikk"><span class="header-section-number">4.2.2</span> Statistikk</a></li>
+  </ul></li>
+  <li><a href="#resultater" id="toc-resultater" class="nav-link" data-scroll-target="#resultater"><span class="header-section-number">4.3</span> Resultater</a></li>
+  <li><a href="#diskusjon" id="toc-diskusjon" class="nav-link" data-scroll-target="#diskusjon"><span class="header-section-number">4.4</span> Diskusjon</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -172,10 +209,72 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<hr>
-<hr>
+<section id="innledning" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="innledning"><span class="header-section-number">4.1</span> Innledning</h2>
+<p>I denne rapporten er det valgt ut 5 studier som tar for seg temaet blokkperiodisering av utholdenhetstrening <span class="citation" data-cites="rønnestad2014 rønnestad2016 almquist2022 breil2010 mcgawley2017">(<a href="references.html#ref-rønnestad2014" role="doc-biblioref">Rønnestad et al. 2014</a>, <a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>; <a href="references.html#ref-almquist2022" role="doc-biblioref">Almquist et al. 2022</a>; <a href="references.html#ref-breil2010" role="doc-biblioref">Breil et al. 2010</a>; <a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>. Studiene er analysert, og likheter og ulikheter med studiene belyses i denne rapporten. Samtidig trekkes styrker og svakheter med dem fram. Til slutt gis det råd til videre studier, basert på de analyserte studiene. Måten analysen er gjort på er inspirert av QALMRI-metoden <span class="citation" data-cites="brosowsky2020">(<a href="references.html#ref-brosowsky2020" role="doc-biblioref">Brosowsky et al. 2020</a>)</span>.</p>
+<section id="problem-og-hypotese" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="problem-og-hypotese"><span class="header-section-number">4.1.1</span> Problem og hypotese</h3>
+<p>Det overordnede problemet som alle studiene prøver å løse er om det er måter å organisere treningen på slik at den blir mer effektiv for å forbedre prestasjon og/eller prestasjonsindikatorer. Ved å konsentrere treningsstimuliet over kortere perioder er teorien at man får et større stimuli enn ved en mer tradisjonell periodisering. I en tradisjonell periodiseringsmodell så fordeler man gjerne hardøktene eller trening med en gitt intensitet utover flere uker.</p>
+<p>Problemet de prøver å løse er i prinsippet det samme i alle artiklene. De ønsker å gjøre noe med organiseringen av treningen eller trene på en bestemt måte som gjør at de forbedrer prestasjonen til populasjonen de har rekruttert et utvalg fra. Det er litt ulikt hvilke idretter studiene forsker på. <span class="citation" data-cites="rønnestad2014">Rønnestad et al. (<a href="references.html#ref-rønnestad2014" role="doc-biblioref">2014</a>)</span> &amp; <span class="citation" data-cites="almquist2022">Almquist et al. (<a href="references.html#ref-almquist2022" role="doc-biblioref">2022</a>)</span> undersøker effekten av BP for trente syklister, mens to andre studier forsker på henholdsvis elite og junior langrennsløpere <span class="citation" data-cites="rønnestad2016 mcgawley2017">(<a href="references.html#ref-rønnestad2016" role="doc-biblioref">Rønnestad et al. 2016</a>; <a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>. Studien som skiller seg mest fra de nevnte studiene på dette området har sett på en 11 dagers treningsperiode med 15 økter med høyintensiv trening (HIT) <span class="citation" data-cites="breil2010">(<a href="references.html#ref-breil2010" role="doc-biblioref">Breil et al. 2010</a>)</span>. Den sistnevnte ble også publisert før de andre studiene, og bakgrunnen for denne studien skiller seg tydelig fra de andre. Her prøvde de å løse utfordringen med å fokusere på å forbedre flere egenskaper samtidig. Utfordringen var at totalbelastningen kan bli for stor hvis man skal forbedre mange av egenskapene som kreves for å bli en allsidig alpinist samtidig. Denne studien er likevel tatt med i analysen her fordi den gir litt flere ulikheter, samt at den nevnes i alle de andre studiene. Studien kan sies å ha bidratt til at man fikk ideen om å finne ut om det var blokkperiodiseringen sin organisering i seg selv som kunne gi økte tilpasninger. Eller om det bare var mer HIT i intervensjonsgruppa som ga utslag.</p>
+<p>Spørsmålet studiene stiller seg er derimot noe mer ulikt med tanke på idrettene som det fokuseres på. <span class="citation" data-cites="breil2010">Breil et al. (<a href="references.html#ref-breil2010" role="doc-biblioref">2010</a>)</span> prøver å besvare spørsmålet om HIT lagt opp som blokkperiodisering for junior alpinister er en effektiv metode for å forbedre VO<span class="math inline">\(_{2maks}\)</span>. Det er formulert som en hypotese om at en 11 dagers mikrosyklus med 15 HIT-økter ville gi større forbedringer i VO<span class="math inline">\(_{2maks}\)</span>, W<span class="math inline">\(_{maks}\)</span> og submaksimale verdier enn vanlig mikset trening. Kontrollgruppen gjennomførte bare sin vanlige trening. Spørsmålet i noen av de andre artiklene kan sammenfattes med; er det større effekt blokkperiodisering (BP), sammenlignet med en gruppe som trener like HIT men med tradisjonell periodisering <span class="citation" data-cites="rønnestad2014 rønnestad2016 mcgawley2017">(<a href="references.html#ref-rønnestad2014" role="doc-biblioref">Rønnestad et al. 2014</a>, <a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>; <a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>. Alle disse studiene legger også fram en hypotese om at BP vil gi større forbedringer på det som kan sammenfattes til prestasjon og prestasjonsindikatorer. <span class="citation" data-cites="almquist2022">Almquist et al. (<a href="references.html#ref-almquist2022" role="doc-biblioref">2022</a>)</span> derimot har ikke lagt frem noen hypotese. Det er heller et spørsmål om det er forskjell og eventuell hva forskjellen er mellom BP og TP dersom man også inkludere moderat intensiv trening (MIT). Dette er til kontrast fra den polarisert tilnærmingen som de andre studiene har, der MIT ikke blir særlig inkludert. I tillegg er den tradisjonelle periodiseringen lagt opp med gradvis økende belastning, mens den er mer lik fra uke til uke i de andre studiene.</p>
+<p>Alle studiene bruker introduksjonen til å gjøre rede for tidligere forskning på området og bruker dette til å begrunne hypotesene sine. I den nevnte artikkelen til <span class="citation" data-cites="almquist2022">Almquist et al. (<a href="references.html#ref-almquist2022" role="doc-biblioref">2022</a>)</span>, hvor det ikke er noen hypotese kan det ha med at det var få studier som tidligere hadde inkludert MIT og dermed blir det vanskeligere å begrunne hypotesen, eller så kan det bare være at spørsmål ga flere muligheter.</p>
+<p>Alle trekker en logisk linje mellom introduksjonen i artikkelen og hypotesen/spørsmålet. Eksempelvis så baserer <span class="citation" data-cites="mcgawley2017">McGawley et al. (<a href="references.html#ref-mcgawley2017" role="doc-biblioref">2017</a>)</span> seg på at andre artikler har vist at BP kan gi ytterligere adaptasjoner sammenlignet med TP og overfører dette til å indusere en hypotese om sin populasjon som utvalget representerer <span class="citation" data-cites="rønnestad2014 rønnestad2016">(<a href="references.html#ref-rønnestad2014" role="doc-biblioref">Rønnestad et al. 2014</a>, <a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>)</span>. I dette tilfellet junior langrennsløpere, og hypotesen blir i tråd med de funnene som trekkes fram.</p>
+</section>
+</section>
+<section id="metode" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="metode"><span class="header-section-number">4.2</span> Metode</h2>
+<section id="studiedesign" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="studiedesign"><span class="header-section-number">4.2.1</span> Studiedesign</h3>
+<p>Samtlige av de analyserte studiene er observasjonsstudier. Alle er prospektive kohortstudier der man måler karakteristikker ved hver forsøksperson og følger dem opp med målinger for å se resultatet. Prediktor variabelen er organiseringen av treningen, fordi det er dette som skiller gruppene og som potensielt skal forklare resultatene etter treningsperioden <span class="citation" data-cites="hulley2013">(<a href="references.html#ref-hulley2013" role="doc-biblioref">Hulley et al. 2013</a>)</span>. En studie har overkryssningsdesign, der man er randomisert til om man starter som med BP eller TP. Men hver forsøkspersoner fungerer som sin egen kontrollperson <span class="citation" data-cites="mcgawley2017">(<a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>. I de andre studiene ble gruppene matchet for VO<span class="math inline">\(_{2maks}\)</span> eller gjennomsnittlig effekt over 40 min <span class="citation" data-cites="rønnestad2016 breil2010 almquist2022">(<a href="references.html#ref-rønnestad2016" role="doc-biblioref">Rønnestad et al. 2016</a>; <a href="references.html#ref-breil2010" role="doc-biblioref">Breil et al. 2010</a>; <a href="references.html#ref-almquist2022" role="doc-biblioref">Almquist et al. 2022</a>)</span>. Deretter randomiserte man til de to gruppene i to av studiene<span class="citation" data-cites="rønnestad2016 almquist2022">(<a href="references.html#ref-rønnestad2016" role="doc-biblioref">Rønnestad et al. 2016</a>; <a href="references.html#ref-almquist2022" role="doc-biblioref">Almquist et al. 2022</a>)</span>.</p>
+<p>Noen oppgir at deltakerne meldte seg frivillig <span class="citation" data-cites="rønnestad2014 rønnestad2016">(<a href="references.html#ref-rønnestad2014" role="doc-biblioref">Rønnestad et al. 2014</a>, <a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>)</span>, mens andre oppgir at de rekrutterte fra lokale sykkellag <span class="citation" data-cites="almquist2022">(<a href="references.html#ref-almquist2022" role="doc-biblioref">Almquist et al. 2022</a>)</span>, fra to spesialist skiskoler i Sverige <span class="citation" data-cites="mcgawley2017">(<a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>, og fra nasjonalt treningssenter <span class="citation" data-cites="breil2010">(<a href="references.html#ref-breil2010" role="doc-biblioref">Breil et al. 2010</a>)</span>. 3 av studiene bestemte effektstørrelser, og de baserte seg alle på samme effektstørrelsen og antall deltakere som fullførte er henholdsvis 15, 19 og 20 <span class="citation" data-cites="rønnestad2014 rønnestad2016 mcgawley2017">(<a href="references.html#ref-rønnestad2014" role="doc-biblioref">Rønnestad et al. 2014</a>, <a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>; <a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>.</p>
+<p>Alle studiene ønsker å ha forsøkspersoner som representerer godt trente utøvere i idretten det fokuseres på. De kategoriserer også alle forsøkspersonene sine som nettopp dette. Basert på dette kan vi si at de treffer populasjonene.</p>
+</section>
+<section id="statistikk" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="statistikk"><span class="header-section-number">4.2.2</span> Statistikk</h3>
+<p>Det viktigste er hvordan de har behandlet dataene der de sammenligner endring fra pre til post mellom gruppene. Sammenligninger ved baseline er noe ulikt, men velger bare å legge frem statistikk gir resultater i tråd med hovedessensen i hypotesen, om det er større endring ved BP. Ett fellestrekk med alle er at de bruker p&lt;0.05 som signifikansnivå. Toveis variansanalyse (ANOVA) med repeterte målinger går igjen i de aller fleste av studiene <span class="citation" data-cites="rønnestad2014 rønnestad2016 breil2010 mcgawley2017">(<a href="references.html#ref-rønnestad2014" role="doc-biblioref">Rønnestad et al. 2014</a>, <a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>; <a href="references.html#ref-breil2010" role="doc-biblioref">Breil et al. 2010</a>; <a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>. Likevel er det noen ulike varianter av det og noen som gjorde andre analyser etterpå. <span class="citation" data-cites="rønnestad2014">Rønnestad et al. (<a href="references.html#ref-rønnestad2014" role="doc-biblioref">2014</a>)</span> gjorde først toveis ANOVA på pre-post-verdier, og da var det ingen forskjell mellom gruppene. Derfor ble endring analysert videre med t-test og gjennomsnittlig effektstørrelse, begrunnet med liten utvalgsstørrelse og forventning om små forbedringer på det som var godt trente syklister. I en annen studie ble det bare brukt til å beskrive responser under submaksimale innsatser på rulleski, mens VO<span class="math inline">\(_{2maks}\)</span>, W<span class="math inline">\(_{maks}\)</span> og effekt ved 4 mmol/L ble sammenlignet med uparet student t-test for å finne forskjell mellom gruppene. Nettopp disse variablene var med i hypotesen <span class="citation" data-cites="rønnestad2016">(<a href="references.html#ref-rønnestad2016" role="doc-biblioref">Rønnestad et al. 2016</a>)</span>. <span class="citation" data-cites="breil2010">Breil et al. (<a href="references.html#ref-breil2010" role="doc-biblioref">2010</a>)</span> gjorde videre en Tukey`s signifikans post hoc test for å bestemme signifikante forskjeller.</p>
+<p>Studien som skilte seg mest ut var den som brukte en mixed linear model med gruppe definert som fixed effects og rettet ved å ha pre-verdier som kovariat <span class="citation" data-cites="almquist2022">(<a href="references.html#ref-almquist2022" role="doc-biblioref">Almquist et al. 2022</a>)</span>. Slikt gjøres gjerne i stedet for ANOVA når det er for store forskjeller i pre-nivået mellom gruppene, og derfor brukes pre-verdier som en kovariat i analysen.</p>
+<p>Så den statistiske tilnærmingen for å prøve å avkrefte nullhypotesen er relativt lik mellom alle de som har stilt en hypotese. Det som eventuelt beskrives i resultatkapittelet nedenfor er den alternative hypotesen de har bestemt.</p>
+</section>
+</section>
+<section id="resultater" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="resultater"><span class="header-section-number">4.3</span> Resultater</h2>
+<p>Som nevnt her det de resultatene som er de som direkte besvarer hypotesen som er i fokus i analysen. I <span class="citation" data-cites="rønnestad2014">Rønnestad et al. (<a href="references.html#ref-rønnestad2014" role="doc-biblioref">2014</a>)</span> hadde BP en større relativ forbedring i VO<span class="math inline">\(_{2maks}\)</span> enn TP, og det som beskrives som en tendens til større forbedring av effekt ved laktatkonsentrasjon på 2 mmol/L. For arbeidsøkonomi og gjennomsnittlig effektutvikling over 40 min som også ble hypotisert å være bedre, så var gjennomsnittlig effektstørrelse av den relative endringen moderat.</p>
+<p>Også <span class="citation" data-cites="rønnestad2016">Rønnestad et al. (<a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>)</span> fikk bekreftet den alternative hypotesen som var bestemt. Hypotesen deres var at det ville være større endring i måling av aerob effekt for BP. De observerte både større økning i W<span class="math inline">\(_{maks}\)</span> og effekt ved 4 mmol/L. BP økte VO<span class="math inline">\(_{2maks}\)</span>, mens det forble uforandret i TP. Effektstørrelse på alle de nevnte variablene var moderat.</p>
+<p>Det var spesielt to studier som skilte seg ut ved at de ikke fant noe forskjell mellom gruppene på lignende variabler som allerede er beskrevet. Volum av røde blodceller og mengde kapillærer rundt type I-fibre økte signifikant mer i BP, uten noen andre gruppeforskjeller <span class="citation" data-cites="almquist2022">(<a href="references.html#ref-almquist2022" role="doc-biblioref">Almquist et al. 2022</a>)</span>. I overkrysningsstudien var det heller ingen forskjell mellom responsen etter de to periodiseringsmodellene <span class="citation" data-cites="mcgawley2017">(<a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>. Så det interessante med den sistnevnte studien er at de ikke fikk avkreftet nullhypotesen, så hypotesen de brukte stemte ikke.</p>
+<p>I studien på alpinistene så økte både relativ VO<span class="math inline">\(_{2maks}\)</span>, relativ W<span class="math inline">\(_{maks}\)</span> og effekt ved ventilatorisk terskel 2 (samsvarer med 4 mmol/L) i intervensjonsgruppa. Mens kontrollgruppa som trente som normalt hadde ingen endring etter treningsperioden.</p>
+</section>
+<section id="diskusjon" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="diskusjon"><span class="header-section-number">4.4</span> Diskusjon</h2>
+<p>Innledningsvis i diskusjonsdelen blir det bare bare en kort lagt noen mulige forklaringer til at to av studiene ikke nødvendigvis fant helt det de forventet. Mye av det forklares nok med studiedesignet til disse studiene. At det ikke var forskjell på de variablene som går igjen i studien til <span class="citation" data-cites="almquist2022">Almquist et al. (<a href="references.html#ref-almquist2022" role="doc-biblioref">2022</a>)</span> kan ha flere årsaker. En årsaker som kan trekkes frem er at de brukte tradisjonell periodisering slik det ofte praktiseres med en økende belastning. De inkluderte også MIT og organiserte treningene i gruppene på en litt annen måte enn de andre studiene. I den andre studien der det ikke var noen forskjell i treningen til gruppene, så trente de ikke noe HIT. Det kan tenkes at det burde vært inkludert for å vedlikeholde eventuelle adaptasjoner. En annen forklaring med studiedesignet kan være at det er gjennomført på slutten av sesongen <span class="citation" data-cites="mcgawley2017">(<a href="references.html#ref-mcgawley2017" role="doc-biblioref">McGawley et al. 2017</a>)</span>. Mange av de andre studiene er gjennomført i forberedelsesperioden utenom sesong <span class="citation" data-cites="rønnestad2014 rønnestad2016 breil2010">(<a href="references.html#ref-rønnestad2014" role="doc-biblioref">Rønnestad et al. 2014</a>, <a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>; <a href="references.html#ref-breil2010" role="doc-biblioref">Breil et al. 2010</a>)</span>. Kanskje kan det også tenkes at 3 HIT-økter på ei uke er nok til å gi litt effekt av at det er relativt konsentrert, sammelignet med andre studier som har 2 HIT-økter per uke for kontrollgruppa.</p>
+<p>To av studiene konkluderer tydelig med at blokkperiodisering gir mer effekt på flere prestasjonsindikatorer for henholdsvis godt trente syklister og langrennsløpere <span class="citation" data-cites="rønnestad2014 rønnestad2016">(<a href="references.html#ref-rønnestad2014" role="doc-biblioref">Rønnestad et al. 2014</a>, <a href="references.html#ref-rønnestad2016" role="doc-biblioref">2016</a>)</span>. De diskuterer hvordan dette kan implementeres i den spesifikke populasjonen, og avslutter med at det kan være et godt alternativ til andre tilnærminger å blokkperiodisere. En av dem peker på at det mangler studier på bolklegging over lengre tid, mer 6-12 måneder. Derfor anbefaler de at mer forskning burde gjøres over lengre tid <span class="citation" data-cites="rønnestad2016">(<a href="references.html#ref-rønnestad2016" role="doc-biblioref">Rønnestad et al. 2016</a>)</span>.</p>
+<p><span class="citation" data-cites="breil2010">Breil et al. (<a href="references.html#ref-breil2010" role="doc-biblioref">2010</a>)</span> konkluderer med at blokkperiodisering ser ut til å være lovende metode for å forbedre VO<span class="math inline">\(_{2maks}\)</span> for unge alpinister. Spørsmålet de likevel står litt igjen med er hva som er for mye, og hva som er nok. De diskuterer litt rundt hvordan deres treningsintervensjon var for å forbedre VO<span class="math inline">\(_{2maks}\)</span> sammenlignet med andre intervensjoner som har sett store forbedringer. Men for populasjonen de retter seg inn mot så er det også et spørsmål hva som er nok, fordi alpinister ønsker gjerne å vedlikeholde de andre egenskapene og det å stå på ski også. Men likevel så ble dette gjort utenom sesong, noe som gjorde det mer gjennomførbart for aktive utøvere.</p>
+<p>I den ene av studiene som ikke fant noe som støttet hypotesen deres, konkluderer de med nettopp dette. Men de trekker frem at det kan være at hematologiske og kapillære adaptasjoner er forskjellige. Til tross for at dataene deres ikke støtter hypotesen, så poengterer de likevel at blokkperiodisering kan brukes som er verktøy i visse situasjoner i treningsplanleggingen <span class="citation" data-cites="almquist2022">(<a href="references.html#ref-almquist2022" role="doc-biblioref">Almquist et al. 2022</a>)</span>.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-almquist2022" class="csl-entry" role="listitem">
+Almquist, Nicki Winfield, Hanne Berg Eriksen, Malene Wilhelmsen, Håvard Hamarsland, Steven Ing, Stian Ellefsen, Øyvind Sandbakk, Bent R. Rønnestad, and Knut Skovereng. 2022. <span>“No Differences Between 12 Weeks of Block- Vs. Traditional-Periodized Training in Performance Adaptations in Trained Cyclists.”</span> <em>Frontiers in Physiology</em> 13 (March): 837634. <a href="https://doi.org/10.3389/fphys.2022.837634">https://doi.org/10.3389/fphys.2022.837634</a>.
+</div>
+<div id="ref-breil2010" class="csl-entry" role="listitem">
+Breil, Fabio A., Simone N. Weber, Stefan Koller, Hans Hoppeler, and Michael Vogt. 2010. <span>“Block Training Periodization in Alpine Skiing: Effects of 11-Day HIT on VO2max and Performance.”</span> <em>European Journal of Applied Physiology</em> 109 (6): 1077–86. <a href="https://doi.org/10.1007/s00421-010-1455-1">https://doi.org/10.1007/s00421-010-1455-1</a>.
+</div>
+<div id="ref-brosowsky2020" class="csl-entry" role="listitem">
+Brosowsky, Nicholaus, Olga Parshina, Anthony Locicero, and Matthew John Charles Crump. 2020. <span>“Teaching Undergraduate Students to Read Empirical Articles: An Evaluation and Revision of the QALMRI Method.”</span> <a href="https://doi.org/10.31234/osf.io/p39sc">https://doi.org/10.31234/osf.io/p39sc</a>.
+</div>
+<div id="ref-hulley2013" class="csl-entry" role="listitem">
+Hulley, Stephen B, Steven R. Cummings, Warren S. Browner, Deborah G. Grady, Thomas B. Newman, and Stephen A Ingham. 2013. <span>“Designing a Randomized Blinded Trial.”</span> In, 137–51. Philadelphia: LIPPINCOTT WILLIAMS &amp; WILKINS, a WOLTERS KLUWER.
+</div>
+<div id="ref-mcgawley2017" class="csl-entry" role="listitem">
+McGawley, Kerry, Elisabeth Juudas, Zuzanna Kazior, Kristoffer Ström, Eva Blomstrand, Ola Hansson, and Hans-Christer Holmberg. 2017. <span>“No Additional Benefits of Block- over Evenly-Distributed High-Intensity Interval Training Within a Polarized Microcycle.”</span> <em>Frontiers in Physiology</em> 8 (June): 413. <a href="https://doi.org/10.3389/fphys.2017.00413">https://doi.org/10.3389/fphys.2017.00413</a>.
+</div>
+<div id="ref-rønnestad2014" class="csl-entry" role="listitem">
+Rønnestad, B. R., S. Ellefsen, H. Nygaard, E. E. Zacharoff, O. Vikmoen, J. Hansen, and J. Hallén. 2014. <span>“Effects of 12 Weeks of Block Periodization on Performance and Performance Indices in Well-Trained Cyclists: Block Periodization in Well-Trained Cyclists.”</span> <em>Scandinavian Journal of Medicine &amp; Science in Sports</em> 24 (2): 327–35. <a href="https://doi.org/10.1111/sms.12016">https://doi.org/10.1111/sms.12016</a>.
+</div>
+<div id="ref-rønnestad2016" class="csl-entry" role="listitem">
+Rønnestad, B. R., J. Hansen, V. Thyli, T. A. Bakken, and Ø. Sandbakk. 2016. <span>“5-Week Block Periodization Increases Aerobic Power in Elite Cross-Country Skiers: Block Training in Elite Cross-Country Skiers.”</span> <em>Scandinavian Journal of Medicine &amp; Science in Sports</em> 26 (2): 140–46. <a href="https://doi.org/10.1111/sms.12418">https://doi.org/10.1111/sms.12418</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -413,8 +512,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./03-proteinanalyse.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Ekstraksjon og analyse av protein</span></span>
+      <a href="./03-vitenskapsfilosofi.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Vitenskapsfilosofi</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
