@@ -1,10 +1,10 @@
-project:
+project: 
   type: book
 
 book:
   title: "IDR4000 Mappeeksamen"
-  author: "Kandidatnr."
-  date: "17.11.2023"
+  author: "Kandidatnr. 413"
+  date: "2023-11-17" 
   chapters:
     - index.qmd
     - 01-reliabilitet.qmd
@@ -15,9 +15,12 @@ book:
     - references.qmd 
     
 output:
-  pdf_document:
-    citation_package: natbib
+  pdf_document: 
     citation_style: referansestil/apa.csl 
+    citation_package: natbib 
+    latex_engine: xelatex 
+    includes:
+      in_header: "lenke-git.tex" 
 editor_options: 
   chunk_output_type: console 
 
