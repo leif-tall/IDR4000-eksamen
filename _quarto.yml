@@ -7,9 +7,9 @@ book:
   date: "2023-11-17" 
   chapters:
     - index.qmd
-    - 01-reliabilitet.qmd
-    - 02-vitenskapsfilosofi.qmd 
-    - 03-proteinanalyse.qmd 
+    - 01-reliabilitet.qmd 
+    - 02-proteinanalyse.qmd 
+    - 03-vitenskapsfilosofi.qmd 
     - 04-studiedesign.qmd 
     - 05-repeterte-forsøk.qmd
     - references.qmd 
