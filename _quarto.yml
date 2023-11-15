@@ -14,6 +14,8 @@ book:
     - 05-repeterte-forsøk.qmd
     - references.qmd 
     
+bibliography: resources/referanser.bib 
+
 output:
   pdf_document: 
     citation_style: referansestil/apa.csl 
@@ -21,10 +23,9 @@ output:
     latex_engine: xelatex 
     includes:
       in_header: "lenke-git.tex" 
+
 editor_options: 
   chunk_output_type: console 
-
-bibliography: resources/referanser.bib 
 
 header-includes:
   - \usepackage{fontspec}
