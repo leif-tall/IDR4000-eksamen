@@ -6,11 +6,11 @@ bibliography: resources/referanser.bib
 
 ## Introduksjon
 
-Styrketreningsprogammer består av mange variabler som i teorien kan påvirke adaptasjoner. Blant dem er volum, intensitet, frekvens, pauselengder mellom sett, ernæring, kontraksjonstype og kontraksjonshastighet. Når vi har så mange variabler vi kan manipulere er det uendelig mange måter vi kan kombinere dette for å få ulike treningsprogrammer. Når det gjelder volum er debatten rundt ett sett kontra flere sett noe som har fått oppmerksomhet [@carpinelli1998].
+Styrketreningsprogammer består av mange variabler som i teorien kan påvirke adaptasjoner. Blant dem er volum, intensitet, frekvens, pauselengder mellom sett, ernæring, kontraksjonstype og kontraksjonshastighet. Når vi har så mange variabler vi kan manipulere er det uendelig mange måter vi kan kombinere dette for å lage ulike treningsprogrammer. Når det gjelder volum er debatten rundt ett sett kontra flere sett noe som har fått oppmerksomhet [@carpinelli1998].
 
-Noen studier viser at større volum er gunstig for både muskelstyrke og muskelvekst (hypertrofi) [@sooneste2013; @radaelli2015]. Likevel er det også noen som finner at lite volum gir økninger i styrke og masse som er tilsvarende det som oppnås ved moderat volum [@cannon2010; @mitchell2012]. Spredningen i hva studiene viser er sannsynligvis på grunn av en kombinasjon av små utvalgsstørrelser og individuelle forskjeller. Studiedesign der man sammenligner ulikt treningsvolum hos samme person kan i teorien hjelpe med å håndtere disse begrensningene. I flere av studiene som ser på ett sett versus tre sett er det også forskjell i intensitet og hvilke øvelser som er brukt [@marx2001; @messier1985].
+Noen studier viser at større volum er gunstig for både muskelstyrke og muskelvekst (hypertrofi) [@sooneste2013; @radaelli2015]. Likevel er det også noen som finner at lite volum gir økninger i styrke og masse som er tilsvarende det som oppnås ved moderat volum [@cannon2010; @mitchell2012]. Spredningen i hva studiene viser er sannsynligvis på grunn av en kombinasjon av små utvalgstørrelser og individuelle forskjeller. Studiedesign der man sammenligner ulikt treningsvolum hos samme person kan i teorien hjelpe med å håndtere disse begrensningene. I flere av studiene som ser på ett sett versus tre sett er det også forskjell i intensitet og hvilke øvelser som er brukt [@marx2001; @messier1985].
 
-Formålet med analysene i denne rapporten var å sammenligne effekt av ett og flere sett på både muskelstyrke og hypertrofi. På bakgrunn i de metodiske utfordringene ved studier som sammenligner ett sett med flere sett så hypotiseres følgende: Tre sett vil være mer effektivt for å forbedre maksimal muskelstyrke og økning i muskelmasse sammenlignet med ett sett.
+Formålet med analysene i denne rapporten var å sammenligne effektene av ett og tre sett på både muskelstyrke og hypertrofi. Ved å ha et studiedesign hvor hvert individ trener begge volum, men på ulikt bein, får vi et bedre design for å sammenligne volum. På bakgrunn i at det ofte ikke er et slikt design når det ikke er observert forskjell mellom ett sett og flere sett hypotetiseres følgende: Tre sett vil være mer effektivt for å forbedre maksimal muskelstyrke og økning i muskelmasse sammenlignet med ett sett. 
 
 ## Metode
 
@@ -18,23 +18,23 @@ Formålet med analysene i denne rapporten var å sammenligne effekt av ett og fl
 
 Førtien mannlige og kvinnelige deltakere ble rekruttert etter kriteriet om at de ikke røykte og var mellom 18-40 år. Kriterier for ikke å bli inkludert var mer enn én ukentlig styrkeøkt siste 12 måneder før intervensjon, intoleranse for bedøvelse, redusert muskelstyrke pga. skade og inntak av reseptbelagt medisin som kan påvirke treningsadaptasjoner. Syv deltakere er ekskludert fra analysene fordi de ikke fullførte minimum 85 % av oppsatt trening. Blant deltakerne som er inkludert rapporterte alle at de hadde erfaring med idrettsaktiviteter. Tjue deltakere drev med fysisk trening når de meldte seg til studien, 10 av disse drev med sporadisk styrketrening, men ingen mer enn én gang i uka.
 
-Intervensjonen innebar 12 uker med fullkropp styrketrening, alle fullførte intervensjonen i løpet av September-November. Benøvelsene ble utført unilateralt for å tillate differensiering av treningsvolum hos samme deltaker. For hver deltaker ble beina randomisert til å utføre øvelser med enten ett eller tre sett, altså gjorde hver deltaker begge protokollene. Muskelstyrke ble samlet inn ved baseline, underveis (uke 3, 5 og 9) og etter intervensjonen, mens målinger av kroppssammensetning var før og etter intervensjonen.
+Intervensjonen innebar 12 uker med fullkropp styrketrening, alle fullførte intervensjonen i løpet av September-November. Beinøvelsene ble utført unilateralt for å tillate differensiering av treningsvolum hos samme deltaker. For hver deltaker ble beina randomisert til å utføre øvelser med enten ett eller tre sett, altså gjorde hver deltaker begge protokollene. Muskelstyrke ble samlet inn ved baseline, underveis (uke 3, 5 og 9) og etter intervensjonen, mens målinger av kroppssammensetning var før og etter intervensjonen.
 
 ### Treningsprotokoll
 
-Benøvelser ble gjennomført i følgende rekkefølge: unilateral benpress, bencurl og kneekstensjon, som ett sett på ene beinet og tre sett på andre beinet. Benet som skulle trenes i ett sett ble trent mellom andre og tredje sett på det andre benet som trente tre sett. Etter beinøvelsene trente de også to sett av bilateral benkpress, nedtrekk, og enten skulderpress eller sittende roing (skulderpress og sittende roing varierte med annenhver økt). Pauselengde mellom settene var 1.5-3 minutter. Treningsmotstanden økte gradvis utover intervensjonen, med 10RM første 2 uker, etterfølgt av 8 RM i 3 uker og 7RM i 7 uker. Etter den niende økten, ble motstanden redusert på én av de tre øktene som var hver uke. Reduseringen tilsvarte 90 % i motstand av forrige økt på den gitte øvelsen, men med mål om samme antall repetisjoner. Det var minimum 48 timer før neste økt etter styrkeøktene som var med maksimal innsats. Etter styrkeøktene med redusert motstand var det minst 24 timer til neste økt. For å sikre umiddelbar restitusjon fikk de en standardisert drikke etter hver økt med 0.15 g/kg protein, 1.2 g/kg karbohydrater og 0.5 g/kg fett.
+Beinøvelser ble gjennomført i følgende rekkefølge: unilateral beinpress, beincurl og kneekstensjon, som ett sett på ene beinet og tre sett på andre beinet. Beinet som skulle trenes i ett sett ble trent mellom andre og tredje sett på det andre beinet som trente tre sett. Etter beinøvelsene trente de også to sett av bilateral benkpress, nedtrekk, og enten skulderpress eller sittende roing (skulderpress og sittende roing varierte med annenhver økt). Pauselengde mellom settene var 1.5-3 minutter. Treningsmotstanden økte gradvis utover intervensjonen, med 10RM første 2 uker, etterfølgt av 8 RM i 3 uker og 7RM i 7 uker. Etter den niende økten, ble motstanden redusert på én av de tre øktene som var hver uke. Reduseringen tilsvarte 90 % i motstand av forrige økt på den gitte øvelsen, men med mål om samme antall repetisjoner. Det var minimum 48 timer før neste økt etter styrkeøktene som var med maksimal innsats. Etter styrkeøktene med redusert motstand var det minst 24 timer til neste økt. For å sikre umiddelbar restitusjon fikk de en standardisert drikke etter hver økt med 0.15 g/kg protein, 1.2 g/kg karbohydrater og 0.5 g/kg fett.
 
 ### Målinger av muskelstyrke og hypertrofi
 
-Maksimal styrke er bestemt som den motstanden man maksimalt klarer en repetisjon av (1RM) i benpress og kneekstensjon. Før selve testen hadde de en spesifikk oppvarming med 10, 6 og 3 repetisjoner på henholdsvis 50, 75 og 85 % av forventet 1RM. Deretter ble 1RM bestemt ved å øke motstanden progressivt helt til deltakeren ikke lenger klarte å løfte gjennom hele bevegelsesbanen. Den høyeste motstanden hvor repetisjonen ble godkjent, er definert som 1RM. De fikk fire til seks forsøk hver.
+Maksimal styrke er bestemt som den motstanden man maksimalt klarer en repetisjon av (1RM) i beinpress og kneekstensjon. Før selve testen hadde de en spesifikk oppvarming med 10, 6 og 3 repetisjoner på henholdsvis 50, 75 og 85 % av forventet 1RM. Deretter ble 1RM bestemt ved å øke motstanden progressivt helt til deltakeren ikke lenger klarte å løfte gjennom hele bevegelsesbanen. Den høyeste motstanden hvor repetisjonen ble godkjent, er definert som 1RM. De fikk fire til seks forsøk hver.
 
 Ved baseline gjennomførte de testene 2 ganger, med 4 dager mellom. Den høyeste verdien de oppnådde på disse 2 dagene er brukt i analysene. Styrketestene var minst 48 timer etter en gjennomført økt ved etter intervensjonen. Ikke alle deltakerne (n = 18) gjorde styrketestene underveis i intervensjonen (uke 2, 5 og 9). Treningen ble prioritert for resterende deltakere hvis de gikk glipp av testing eller trening pga. sykdom eller logistiske utfordringer. Derfor er ikke testene underveis inkludert i analysene for at det skulle være et større utvalg i analysene. Resultatene før og etter intervensjonen er det som er analysert.
 
-Kroppssammensetning for bestemmelse av mager muskelmasse er bestemt ved dual-energy X-ray absorptiometry (DXA) før og etter intervensjonen (Lunar Prodigy, GE Healthcare, Oslo, Norway). Før DXA-målinger fikk deltakerne beskjed om å faste 2 timer og avstå fra krevende fysisk aktivitet i 48 timer. Det var også minimum 48 timer fra siste styrkeøkt til DXA-måling.
+Kroppssammensetning for bestemmelse av mager muskelmasse per bein er bestemt ved dual-energy X-ray absorptiometry (DXA) før og etter intervensjonen (Lunar Prodigy, GE Healthcare, Oslo, Norway). Før DXA-målinger fikk deltakerne beskjed om å faste 2 timer og avstå fra krevende fysisk aktivitet i 48 timer. Det var også minimum 48 timer fra siste styrkeøkt til DXA-måling.
 
 ### Dataanalyser og statistikk
 
-Statiske analyser er gjort i R studio [@rstudio]. Det er gjort enkle lineære regresjonsmodeller på differansen mellom gruppene (ett sett & flere sett) i endring av styrke og muskelmasse i løpet av intervensjonen. For maksimal styrke er det gjort analyser på øvelsene benpress og kneekstensjon. Muskelmasse er målt som endringen i mager muskelmasse i beinet som har trent ett mot beinet som har trent tre sett.
+Statiske analyser er gjort i R studio [@rstudio]. Det er gjort enkle lineære regresjonsmodeller på differansen mellom gruppene (ett sett & tre sett) i endring av maksimal styrke og muskelmasse i løpet av intervensjonen. For maksimal styrke er det gjort analyser på øvelsene beinpress og kneekstensjon. 
 
 ## Resultater
 
@@ -224,8 +224,6 @@ mod_ext_results <- paste0(mod_ext_est,
 
 DXA-resultatene viste at gjennomsnittlig differanse mellom ett og tre sett var `r m1results`. Også for styrkeøvelsene var forbedringen i 1RM i gjennomsnitt større for det beinet som hadde trent flere sett. I beinpress var forskjellen `r mod_press_results`, mens for kneekstensjon var det `r mod_ext_results` differanse.
 
-Tabellen nedenfor viser nivået ved baseline for styrkeøvelsene og mager muskelmasse.
-
 ```{r}
 #| label: "Lage tabell"
 #| output: false 
@@ -278,8 +276,8 @@ tbl <- right_join(lean, press, by = "sets") |>
 ```
 
 ```{r}
-#| label: tbl-pre
-#| tbl-cap: Resultater fra pre-test
+#| label: tbl-pre 
+#| tbl-cap: Data er presentert som gjennomsnitt &plusmn; standardavvik. Tabellen viser verdier fra testene som var før intervensjonen (pre-test).
 
 tbl |> 
    gt() |> 
@@ -297,7 +295,9 @@ tbl |>
              m_lean = "Muskelmasse (g)", 
              m_press = "Benpress (kg)", 
              m_ext = "Kneekstensjon (kg)") |> 
-  tab_footnote(footnote = md("*Data er presentert som gjennomsnitt &plusmn; standardavvik.*")) 
+
+  tab_header(title = "Resultater fra pre-test") 
+  
 
 ```
 
@@ -350,7 +350,7 @@ results_styrke_masse <- paste0("(R = ",
 
 ```
 
-Figuren viser om det er en sammenheng mellom prosentvis endring i muskelmasse og 1RM benpress. 0.5 % av endringen i 1RM benpress kan forklares med endringen i muskelmasse `r results_styrke_masse`.
+0.5 % av endringen i 1RM benpress kan forklares med endringen i muskelmasse `r results_styrke_masse` (se @fig-figur1). 
 
 ```{r}
 #| label: fig-figur1
@@ -465,9 +465,9 @@ results_change_leanmass_multiple <- paste0(multiple_mean_leanmass,
 
 ## Diskusjon
 
-Det beinet som hadde trent tre sett økte hadde mer hypertrofi og økte styrken i de to øvelsene sammenlignet med beinet som hadde trent ett sett. Prosentvis endring i mager muskelmasse var størst ved 3 sett, hhv. `r results_change_leanmass_multiple` % mot ett sett som økte `r results_change_leanmass_single` %. Dette er overens med en metaanalyse som fant effektstørrelse i favør av 3 sett versus 1 sett [@krieger2009]. Likevel skal vi være forsiktig med å trekke konklusjoner basert på metaanalyser, men utfordringen er at studier sammenligner grupper med ulike deltakere og observerer da ingen forskjell mellom volum [@starkey1996]. Da får man ikke tatt høyde for den biologiske variasjonen mellom individer, og gjør det vanskeligere å sammenligne ulikt volum. I analysene fra denne rapporten kunne ikke økningen i muskelmasse forklare økning i 1RM benpress når vi inkluderte begge bein i korrelasjonsanalysen.
+Det beinet som hadde trent tre sett økte hadde mer hypertrofi og økte styrken i de to øvelsene sammenlignet med beinet som hadde trent ett sett. Prosentvis endring i mager muskelmasse var størst ved 3 sett, hhv. `r results_change_leanmass_multiple` % mot ett sett som økte `r results_change_leanmass_single` %. Dette er overens med en metaanalyse som fant effektstørrelse i favør av 3 sett versus 1 sett [@krieger2009]. Likevel skal vi være forsiktig med å trekke konklusjoner basert på metaanalyser, men utfordringen er at studier sammenligner grupper med ulike deltakere og observerer da ingen forskjell mellom volum [@starkey1996]. Da får man ikke tatt høyde for den biologiske variasjonen mellom individer, og gjør det vanskeligere å sammenligne ulikt volum. I analysene fra denne rapporten kunne ikke økningen i muskelmasse forklare økning i 1RM beinpress når vi inkluderte begge bein i korrelasjonsanalysen.
 
-Selv om det ikke var noen sammenheng, økte også styrken i benpress mer ved 3 sett versus 1 sett (prosentvis endring på hhv. `r results_change_benpress_multiple` & `r results_change_benpress_single`). Det samme gjaldt for kneekstensjon; 3 sett økte `r results_change_kneekstensjon_multiple` %, mens 1 sett økte med `r results_change_kneekstensjon_single`. 
+Selv om det ikke var noen sammenheng, økte også styrken i beinpress mer ved 3 sett versus 1 sett (prosentvis endring på hhv. `r results_change_benpress_multiple` & `r results_change_benpress_single`). Det samme gjaldt for kneekstensjon; 3 sett økte `r results_change_kneekstensjon_multiple` %, mens 1 sett økte med `r results_change_kneekstensjon_single`. Dette bekrefter hypotesen vi hadde om dette studiedesignet, der både styrken og muskelmassen økte mer i det beinet som trente med større volum. 
 
 Konklusjonen fra disse analysene der hver deltaker har trent med begge volum på ulikt bein. Det er at responsen på styrke og hypertrofi følger et dose-volum forhold, der 3 sett er mer gunstig enn 1 sett for utrente voksne.
 
