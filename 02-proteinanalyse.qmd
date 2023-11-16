@@ -148,7 +148,7 @@ dt %>%
             ) %>% 
   pivot_longer(cols = A:P1,
                names_to = "navn", 
-               values_to = "cv (%)") %>% 
+               values_to = "CV (%)") %>% 
 
   gt() %>% 
   fmt_number(columns = `CV (%)`, decimals = 2) |> 
