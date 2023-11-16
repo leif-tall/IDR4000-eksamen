@@ -92,7 +92,7 @@ Under hele sykkeltesten prøvde vi å kjøre mest mulig lik tilbakemelding og en
 
 Den submaksimale testen bestod av to drag på fire minutter. For seks av deltakerne ble første belastning på testen gjennomført med en effekt på 100 W og andre belastning på 150 W, mens én deltaker syklet på 75 W og 125 W. Tilpasningene ble gjort for å få en mer optimal test. Forsøkspersonene syklet med neseklype og munnstykke de siste to minuttene av hvert drag (begynte å ta i da det hadde gått 1,5 min), for bestemmelse av oksygenopptak på submaksimale belastninger. Deltakerne ble oppfordret til å holde en tråkkfrekvens på \> 80 rpm. Hver belastning ble gjennomført på samme måte, og gikk direkte over i hverandre. Vi spurte om Borgs 6-20 skala etter hvert drag. Etter dragene var det to minutter pause der deltakerne satt helt i ro.Tråkkfrekvensen til en bestemt deltaker ble reprodusert på alle andre submaksimale drag og under MAOD-testen så lenge de klarte.
 
-#### VO$_2maks$-test
+#### VO$_{2maks}$-test 
 
 VO$_{2maks}$-testen startet for de fleste på 200 W, og økte med 25 W hvert minutt helt til utmattelse. For deltakeren som hadde litt lavere effekt på de submaksimale dragene startet VO$_{2maks}$-testen på 150 W. Testen var ferdig når tråkkfrekvensen var \< 60 rpm. Det var fri tråkkfrekvens og vi målte oksygenopptaket under hele testen. Vi spurte om Borgs-skala rett etter VO$_{2maks}$-testen. Etter avsluttet test fikk forsøkspersonen fem minutter pause. Det første minuttet etter avsluttet test satt personen helt i ro, mens de neste fire minuttene ble gjennomført som rolig sykling på 50 W. Valgfri tråkkfrekvens, men den skulle være lik under pausen på t2.
 

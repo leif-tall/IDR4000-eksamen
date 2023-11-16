@@ -222,7 +222,8 @@ mod_ext_results <- paste0(mod_ext_est,
 
 ```
 
-DXA-resultatene viste at gjennomsnittlig differanse mellom ett og tre sett var `r m1results`. Også for styrkeøvelsene var forbedringen i 1RM i gjennomsnitt større for det beinet som hadde trent flere sett. I beinpress var forskjellen `r mod_press_results`, mens for kneekstensjon var det `r mod_ext_results` differanse.
+DXA-resultatene viste at gjennomsnittlig differanse mellom ett og tre sett var `r m1results`. Også for styrkeøvelsene var forbedringen i 1RM i gjennomsnitt større for det beinet som hadde trent flere sett. I beinpress var forskjellen `r mod_press_results`, mens for kneekstensjon var det `r mod_ext_results` differanse. 
+
 
 ```{r}
 #| label: "Lage tabell"
@@ -350,7 +351,13 @@ results_styrke_masse <- paste0("(R = ",
 
 ```
 
+
 0.5 % av endringen i 1RM benpress kan forklares med endringen i muskelmasse `r results_styrke_masse` (se @fig-figur1). 
+
+```{r, results='asis'}
+#| echo: false
+cat("\\newpage")
+```
 
 ```{r}
 #| label: fig-figur1
@@ -462,6 +469,7 @@ results_change_leanmass_multiple <- paste0(multiple_mean_leanmass,
                                            " \u00B1 ", 
                                            multiple_sd_leanmass) 
 ```
+
 
 ## Diskusjon
 

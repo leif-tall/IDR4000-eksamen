@@ -3,7 +3,7 @@ bibliography: resources/referanser.bib
 ---
 # Ekstraksjon og analyse av protein 
 
-## **Introduksjon**
+## Introduksjon
 
 Proteiner gjør det meste av arbeidet i cellene i kroppen, og er nødvendig for strukturen, funksjonene og reguleringen av kroppens vev og organer. De er essensielle deler av organismen, og deltar praktisk talt i alle prosesser i kroppen [@telser2002]. Det å kunne analysere proteiner vil derfor være av stor betydning, og svært interessant å se på innen ulike fagområder, som celle- og molekylærbiologi.
 
@@ -11,7 +11,7 @@ Det å studere protein og proteinkonsentrasjonen i muskelceller har blitt brukt 
 
 I denne labbrapporten har vi gjort en protein ekstraksjon og analyse. Én frivillig person meldte seg til å ta en mikrobiopsi fra vastus lateralis, i venstre og høyre bein. Personen gjennomførte eksentrisk beinpress til utmattelse på venstre bein før prøvetaking. Vi var interessert i å se på det fosforylerte p-70 proteinet til denne personen, og forskjellen i konsentrasjonen mellom venstre og høyre bein. Prøvene ble tatt på Høgskolen i Innlandet, 30.oktober 2023. Resterende prøver som er analysert er hentet fra mikrobiopsi fra én trent- og én utrent person. I denne analysen var vi interessert i å se på UBF-proteinet, og sammenlikne konsentrasjonen av dette proteinet mellom personene.
 
-## **Teori**
+## Teori
 
 Det er individuelle forskjeller på adaptasjoner til styrketrening, målt i muskelstyrke og muskelmasse, og dette korrelerer med muskelcelle-karakteristikker i hvile og under trening [@terzis2008; @raue2012; @thalacker2013; @stec2016]. Hemmelse av proteinet mTORC1 svekker proteinsyntesen hos mennesker [@drummond2009], mens aktivering av proteinet S6-Kinase 1 (S6K1/p-70), som ligger nedstrøms for mTORC1, gir en økning i proteinsyntesen og påfølgende økning i muskelvekst [@terzis2008; @burd2010]. Et økt treningsvolum vil føre til større fosforylering av S6K1, og dermed markante tilpasninger gjennom gjentatte episoder med økt proteinsyntese [@burd2010; @terzis2010; @ahtiainen2015]. Dette er grunnen til at vi ønsker å se på konsentrasjonen av p-70 i det beinet som har trent til utmattelse, mot det beinet som ikke har trent rett før prøvetaking.
 
@@ -21,19 +21,19 @@ For å analysere de aktuelle proteinene ble det brukt en metode kalt Western blo
 
 De ubundne antistoffene vaskes bort, slik at det kun er de bundne antistoffene til proteinet som man er interessert i blir igjen. De bundne antistoffene detekteres ved fremkalling av film. Siden antistoffene bare binder seg ved de proteinene av interesse, skal kun ett bånd være synlig. Tykkelsen på båndet samsvarer med mengden protein som er til stede. Western blot er en nyttig teknikk proteindeteksjon der man får muligheten til å kvantifisere proteinuttrykk [@yang2012].
 
-## **Metode**
+## Metode
 
-#### **Prøvemateriale**
+#### Prøvemateriale
 
 En frivillig på gruppa meldte seg til å ta en mikrobiopsi fra vastus lateralis i både venstre og høyre ben. Vedkommende hadde trent styrke på formiddagen, men gjennomførte 10 sett eksentriske benpress med venstre fot til utmattelse. Derfor var vi interessert i å se på fosforylert p-70 protein. Resterende prøver vi analyserte var fra en mikrobiopsi fra en trent person mens andre var fra en utrent person. Her var vi interessert i å se på UBF-proteinet.
 
-#### **Oppsett og utgangspunkt for analyse**
+#### Oppsett og utgangspunkt for analyse
 
 Til det vi gjorde i labben fikk vi ferdig behandlet muskelvev som var fryst ned over natta. Western blot og bestemmelse av total proteinkonsentrasjon ble gjort i motsatt rekkefølge, samt at prøven hvor det ble bestemt total proteinkonsentrasjon var en vilkårlig tilgjengelig prøve av tørt muskelvev som vi fikk utdelt.
 
 Muskelbiopsien fra den frivillige ble homogenisert av bioingeniør som beskrevet under metoden. Det ble ikke bestemt proteinkonsentrasjon, men prøven ble også fortynnet i Laemmlibuffer (Bio-Rad) til å ha en konsentrasjon på 1.5-2.0 µg/µl. Løsningen ble kokt i 5 min, 95 ℃. Kjølt ned til romtemperatur og sentrifugert for å få ned kondens før vi begynte på Western blot slik det er beskrevet.
 
-#### **Western Blot**
+#### Western Blot
 
 Elektroforesekammeret ble lagt på is og fylt med buffer. Gelen vasket vi med ultrarent vann (dH2O) før den ble lagt i kammeret. Tilsatte 5 µl standard proteinstige, og 25 µl prøve (duplikat av hver) til gel etter skjema. Alt vi tilsatte ble vortexet og sentrifugert før pipettering. Satte i kjøleskap (4 ℃) og kjørte elektroforese i 30 min, 300 volt.
 
@@ -45,11 +45,11 @@ Deretter blokkerte vi membranen med melkeproteiner på de stedene hvor det ikke 
 
 Neste dag vasket vi for primærantistoff før vi tilsatte sekundær antistoff. Vasket med TBS-T, 2 x 1 min + 3 x 5 min på shaker. Tilsatte sekundær antistoff (anti-mouse igG) til 2.5 % melk/TBS-T-løsning, i forholdet 1:3000. Brukte to ulike produsenter, membranen med p-70 primær antistoff ble lagt i anti-mouse igG fra Cell signaling, mens resterende i antistoff fra Thermo Fisher. Stod på vippebrett i 1 time i romtemperatur. Etterpå vasket vi med TBS, 4 x 5 min på shaker. Inkuberte membranen i ECL-løsning i 5-10 min, la den på platen for å ta bilde.
 
-#### **Homogenisering av muskelvev**
+#### Homogenisering av muskelvev
 
 Tørr muskelprøve veies, brukte 1.88 mg tørrvekt. Tilsatte protease/phosphatase inhibitorer til en iskald lysis buffer (Hepes buffer), 500 µl Hepes buffer og 5 µl inhibitorer. Viktig at prøven var på is til vi tilsatte Hepes buffer. Tilsatte 150 µl av blandingen til muskelprøven knuste mekanisk for hånd. Mos til det ikke er noen synlige biter igjen, første gang gikk det 20-30 sek før den ble satt på is igjen. Plasser på SB2 rotator i kjøleskap og roterte prøve i 30 min. Spinn den i 10 min på 10 000 g, 4 ℃, før vi forflyttet supernatanten forsiktig til et nytt rør uten å forstyrre pelleten. Brukte ufortynnede prøver, men resultatene var over maksimal konsentrasjon. Derfor fortynnet vi med dH2O og bestemte total proteinkonsentrasjon på en 1:1 fortynning. Konsentrasjonen bestemte vi med Bradford Assay, brukte 10 µl prøve + 250 µl reagent i hver brønn (Pierce Detergent Compatible Bradford Assay Reagent, Thermo Fisher Scientific).
 
-## **Resultater**
+## Resultater
 
 ```{r}
 #| echo: false 
@@ -120,7 +120,12 @@ cat("\\newpage")
 cat("\\newpage")
 ```
 
-![*Spredningsplott med trendkurve, som illustrerer den forklarte variansen mellom signal og konsentrasjon (N = 1). Notat: Data er presentert som bestemmelseskoeffisient (R*<sup>2</sup>) (skala: 0,0--1,0).](data/figur2_spredningsplot_trendkurve.png){#fig-figur2}
+![*Spredningsplott med trendkurve, som illustrerer den forklarte variansen mellom signal og konsentrasjon (N = 1). Notat: Data er presentert som bestemmelseskoeffisient (R*<sup>2</sup>) (skala: 0,0--1,0).](data/figur2_spredningsplot_trendkurve.png){#fig-figur2} 
+
+```{r, results='asis'}
+#| echo: false
+cat("\\newpage")
+```
 
 ```{r}
 #| label: tbl-tabell1 
@@ -146,18 +151,18 @@ dt %>%
                values_to = "cv (%)") %>% 
 
   gt() %>% 
-  fmt_number(columns = `cv (%)`, decimals = 2) |> 
+  fmt_number(columns = `CV (%)`, decimals = 2) |> 
   cols_label(navn = "")
 
 ```
 
-## **Diskusjon**
+## Diskusjon
 
-### **Homogenisering**
+### Homogenisering
 
 Den relativt høye, men akseptable, CV-en fra homogeniseringen kan indikere en betydelig grad av variasjon i resultatene, noe som kan være problematisk for reliabiliteten av eksperimentet. En potensiell årsak til denne relativt høye CV-en kan være utvanningen av testløsningen som vi var nødt til å utføre for å komme innenfor målegrensen for vårt analyseapparat. Utvanning kan introdusere usikkerhet og øke variasjonen i resultatene, spesielt når det gjelder prøver med lave konsentrasjoner av målproteiner. Det er også verdt å merke at bruk av pipettespissen for å blande løsningen kan ha ført til absorpsjon av vann eller proteiner, og dette kan ha påvirket nøyaktigheten av målingene. Fremtidige eksperimenter bør derfor vurdere alternative metoder for utvanning og prøveblanding for å minimere denne typen feilkilder. Imidlertid er det verdt å merke seg at bestemmelseskoeffisienten indikerer at selve pipetteringen var vellykket, og dette gir en viss grad av tillit til nøyaktigheten av våre målinger.
 
-### **Western blot**
+### Western blot
 
 Western Blotting stiller høye krav til presisjon fra forskerne [@ghosh2014]. Dette gjør at marginale feil, som feil mengde primærantistoff, kan føre til ugyldige resultater [@ghosh2014]. Videre har inter-forsker variabilitet vist seg å være den største feilkilden, og kan utgjøre opptil 80 % av den totale variasjonen [@koller2005]. På tross av alle disse potensielle feilkildene, oppnådde vi adekvate resultater for p-70. Dette kan skyldes grundig planlegging og nøye utførelse av western blotting-prosedyren. Selv om teknikken stiller høye krav til presisjon fra forskerne, ble potensielle feilkilder adressert gjennom en nøyaktig tilnærming til hver fase av eksperimentet.
 
