@@ -1,3 +1,5 @@
 # Forord {.unnumbered}
 
-Dette er en pdf som leveres som eksamen i IDR4000. Alle koder og datasett er tilgjengelig på min Github-mappe som er tilgjengelig her: [\url{https://github.com/leif-tall/idr4000-eksamensmappe.git}](https://github.com/leif-tall/idr4000-eksamensmappe.git). 
+Dette er en pdf som leveres som eksamen i IDR4000. Alle koder og datasett er tilgjengelig på min Github-mappe som er tilgjengelig på denne lenken: [\url{https://github.com/leif-tall/idr4000-eksamensmappe.git}](https://github.com/leif-tall/idr4000-eksamensmappe.git). 
+
+

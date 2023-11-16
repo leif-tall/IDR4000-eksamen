@@ -15,11 +15,10 @@ book:
     - references.qmd 
     
 bibliography: resources/referanser.bib 
+csl: referansestil/apa.csl 
 
 output:
   pdf_document: 
-    citation_style: referansestil/apa.csl 
-    citation_package: natbib 
     latex_engine: xelatex 
     includes:
       in_header: "lenke-git.tex" 
